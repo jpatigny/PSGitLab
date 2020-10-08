@@ -18,6 +18,8 @@ Function New-GitLabProject {
         [Switch]$public,
         [ValidateSet("Private", "Internal", "Public")]
         [String]$visibility_level
+        [String]$template_name,
+        [boolean]$use_custom_template
     )
 
     $Body = @{
