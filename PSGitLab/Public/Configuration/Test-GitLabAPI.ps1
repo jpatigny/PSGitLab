@@ -1,7 +1,7 @@
 ﻿Function Test-GitLabAPI {
     param(
     [Parameter(Mandatory=$false)]
-    [string]$Version = 'v3'
+    [string]$Version = 'v4'
 )
     $GitLabConfig = ImportConfig
 
